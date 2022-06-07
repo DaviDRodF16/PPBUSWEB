@@ -20,7 +20,7 @@
 O PPBUS mostra todos os ônibus, horários e suas respectivas paradas que paradas que passam pela Leste-Oeste.</p> 
     <p> Assim, nós oferecemos aos nossos usuários independência e facilidade ao se deslocar pela Barra do Ceará, ajudando principalmente aos alunos da querida escola: Paulo Petrola. </p>
 
-    <h3> Nos dê sua opinião! </h3>
+    <h3> <a href="coments.php" id="opiniao"> Nos dê sua opinião! </a> </h3>
     <script src="js/jquery360.min.js"> </script>
     <script src="js/app.js"> <script>
 </body>
