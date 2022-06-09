@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Righteous&display=swap');
+
+* {
+ margin: 5px;
+ padding:5px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  font-family: ;
+  background-color: #10545B;
+  height: 8vh;
+}
+
+.lista-home {
+  list-style: none;
+  display: flex;
+}
+
+.lista-home li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
