@@ -16,7 +16,7 @@
             <li> <a href="onibus.php"> Ônibus </a> </li>
 
         </ul>
-    <form action="processcoments.php" method="post">
+    <form action="processcoments.php" method="post" id="formcoment">
         <fieldset>
             <legend> Nos dê seu feedback! </legend>
         <div>
