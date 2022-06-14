@@ -73,5 +73,16 @@ color:gray;
   margin-left: 500px;
   margin-top:12px;
 }
+.butoesonibus{
+  border: none;
+  background-color: #10545B;
+  color: #fff;
+  border: 2px solid black;
 
-
+}
+.butoesmeio{
+  text-align: center;
+}
+.butoesonibus:hover{
+  background-color: #1e818a;
+}
