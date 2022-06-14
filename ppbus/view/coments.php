@@ -10,12 +10,7 @@
 </head>
 <body>
     <h1> PPBUS </h1>
-        <ul>
-            <li> <a href="index.php"> Ínicio</a></li>
-            <li> <a href="comousar.php"> Ajuda </a> </li>
-            <li> <a href="onibus.php"> Ônibus </a> </li>
-
-        </ul>
+        
     <form action="processcoments.php" method="post" id="formcoment">
         <fieldset>
             <legend> Nos dê seu feedback! </legend>
@@ -37,7 +32,7 @@
         </div>
         <div>
             <label for="opiniao"> Escreva-nos sua opinião sobre o site! </label> 
-            <textarea id="opiniao" name="opiniao" required> </textarea>
+            <textarea id="inputOpiniao" name="opiniao" required> </textarea>
 
         </div>
         <input type="submit" id="btnenviar" name="btnenviar" value="Entrar"/>
