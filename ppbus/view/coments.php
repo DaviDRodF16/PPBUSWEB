@@ -31,8 +31,8 @@
             <label for="nao"> Não </label>
         </div>
         <div>
-            <label for="opiniao"> Escreva-nos sua opinião sobre o site! </label> 
-            <textarea id="inputOpiniao" name="opiniao" required> </textarea>
+            <label for="inputOpiniao"> Escreva-nos sua opinião sobre o site! </label> 
+            <textarea id="inputOpiniao" name="opiniao" required></textarea>
 
         </div>
         <input type="submit" id="btnenviar" name="btnenviar" value="Entrar"/>

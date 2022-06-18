@@ -8,8 +8,8 @@ function mudarTela(url){
     })
 }
 
-$("#btnenviar").click(function(e){
-    e.preventDefault();
+$("#formcoment").submit(function(e){
+    
     let nome = document.querySelector("#nome");
     let email = document.querySelector("#email");
     let simnao = document.querySelector('input[name=simnao]:checked').value;
@@ -20,18 +20,16 @@ $("#btnenviar").click(function(e){
         method: "post",
         data: comentform,
         success: function(){
-           if(opiniao.value == "sim" ){
+           if(simnao == "sim" ){
             alertify
-            .alert("Ficamos felizes que você achou útil! Estaremos sempre aqui para você!", function(){
-            });
+            .alert("Ficamos felizes que você achou útil! Estaremos sempre aqui para você!");
            } else{
             alertify
-            .alert("Lamentamos por isso! Tentaremos melhorar!", function(){
-              
-            });
+            .alert("Lamentamos por isso! Tentaremos melhorar!");
            }
         }
-    });
+    }); 
+    return false;
 })
 
 $(".comusar").click(() => {
