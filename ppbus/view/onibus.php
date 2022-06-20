@@ -1,5 +1,5 @@
 
-<body>
+
 <h1> PPBUS </h1>
 
     Aqui estão todos os ônibus que te levam ao Paulo Petrola! <br>
@@ -29,8 +29,6 @@
                         $(".container").html(e);
                     }
                 })
-            };
+            }
         }
     </script>
-</body>
-</html>

@@ -1,14 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> PPBUS - FEEDBACK </title>
-    <link rel="stylesheet" href="alertify/css/alertify.min.css">
-</head>
-<body>
+
     <h1> PPBUS </h1>
         
     <form action="processcoments.php" method="post" id="formcoment">
@@ -21,10 +12,10 @@
         </div>
         <div>
             <label for="email"> Digite seu e-mail </label>
-            <input type="email" id="nome" name="nome" required>
+            <input type="email" id="email" name="nome" required>
         </div>
         <div>
-            <p> Esse site foi útil para vocês?  </p>
+            <p> Esse site foi útil para vocês? </p>
             <input type="radio" id="sim" name="simnao" value="sim" required>
             <label for="sim"> Sim  </label>
             <input type="radio" id="nao" name="simnao" value="nao" required>
@@ -41,6 +32,4 @@
     
     <script src="js/jquery360.min.js"> </script>
     <script src="alertify/alertify.min.js"></script>
-    <script src="js/app.js "></script>
-</body>
-</html>
+    <script src="js/app.js"></script>

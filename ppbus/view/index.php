@@ -6,6 +6,7 @@
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="css/app.css">   
+     <link rel="stylesheet" href="alertify/css/alertify.min.css">
      <title>PPBUS</title>
  </head>
  <body>
@@ -36,6 +37,10 @@ O PPBUS mostra todos os ônibus, horários e suas respectivas paradas que parada
     </div>
     
     <script src="js/jquery360.min.js"> </script>
-    <script src="js/app.js"> </script>
+    <script src="alertify/alertify.min.js"> </script>
+    <script>
+        let listaemail = [];
+    </script>
+    <script src="js/app.js"></script>
 </body>
  </html>

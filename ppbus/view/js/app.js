@@ -20,15 +20,36 @@ $("#formcoment").submit(function(e){
         method: "post",
         data: comentform,
         success: function(){
-           if(simnao == "sim" ){
-            alertify
-            .alert("Ficamos felizes que você achou útil! Estaremos sempre aqui para você!");
-           } else{
-            alertify
-            .alert("Lamentamos por isso! Tentaremos melhorar!");
-           }
+            let existe = false;
+            for(i = 0; i < listaemail.length; i++){
+                if(listaemail[i] == email.value){
+                    existe = true;
+                    break;
+                } 
+            }
+            
+            if(!existe){
+                listaemail.push(email.value);
+                if(simnao == "sim" ){
+                    alertify
+                    .alert("Ficamos felizes que você achou útil! Estaremos sempre aqui para você!");
+                   } else{
+                    alertify
+                    .alert("Lamentamos por isso! Baixa o moovit então!");
+                   }
+            } else{
+                if(simnao == "sim" ){
+                    alertify
+                    .alert("Ficamos felizes que você achou útil! Estaremos sempre aqui para você!");
+                   } else{
+                    alertify
+                    .alert("Estamos fartos da sua opinião!");
+                   }
+            }
+           
         }
-    }); 
+    });
+    e.preventDefault();
     return false;
 })
 
