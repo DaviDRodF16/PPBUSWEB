@@ -16,9 +16,9 @@
 
     <script src="js/jquery360.min.js"></script>
     <script>
-        let listaOnibus = $(".linhaBtn");
+        listaOnibus = $(".linhaBtn");
         
-        for(let i = 0; listaOnibus.length; i++){
+        for(let i = 0; i < listaOnibus.length; i++){
             listaOnibus[i].onclick = () => {
                 $.ajax({
                     url: "paradas.php",

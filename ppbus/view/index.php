@@ -40,6 +40,7 @@ O PPBUS mostra todos os ônibus, horários e suas respectivas paradas que parada
     <script src="alertify/alertify.min.js"> </script>
     <script>
         let listaemail = [];
+        let listaOnibus = [];
     </script>
     <script src="js/app.js"></script>
 </body>
